@@ -1,7 +1,7 @@
 📊 Finance Dashboard — Front-End para Portfólio
 
 Um painel financeiro moderno, responsivo e desenvolvido com React, Vite, TailwindCSS e Recharts.
-O projeto foi preparado para ser hospedado diretamente na Netlify, sem necessidade de configurar ambientes complexos.
+
 
 🚀 Tecnologias utilizadas
 
@@ -31,72 +31,7 @@ finance-dashboard/
      └─ components/
          └─ FinanceDashboard.jsx
 
-🌐 Deploy na Netlify (sem modo local)
-
-Este projeto foi configurado para ser hospedado rapidamente usando o Netlify Deploy.
-
-✅ 1. Faça login no Netlify
-
-https://app.netlify.com/
-
-✅ 2. Clique em “Add new site” → “Import an existing project”
-✅ 3. Conecte seu repositório GitHub
-
-Escolha o repositório onde o dashboard está publicado.
-
-✅ 4. Configure o Build & Deploy
-Configuração	Valor
-Build command	npm run build
-Publish directory	dist
-Node version	(deixe padrão ou defina 18+)
-
-A Netlify automaticamente instalará as dependências e compilará o projeto.
-
-✅ 5. Clique em Deploy site
-
-Em alguns segundos seu painel financeiro estará online em um link do tipo:
-
-https://nome-do-seu-site.netlify.app
-
-📦 Scripts do projeto (usados pela Netlify)
-
-Mesmo sem rodar localmente, a Netlify utiliza:
-
-"scripts": {
-  "build": "vite build"
-}
-
-
-E o build process do Vite gera:
-
-dist/
-
-
-Que é enviado automaticamente para produção.
-
-🎨 Estilos com TailwindCSS
-
-O Tailwind está configurado no modo padrão (usado AF apenas no build da Netlify, não no seu PC).
-
-Arquivo styles.css:
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-Arquivo tailwind.config.cjs:
-module.exports = {
-  content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-};
-
-
-A Netlify irá processar isso automaticamente durante o build.
-
-📈 Funcionalidades do projeto
-✔ Dashboard completo
+Funcionamento do Dashboard !
 
 Saldo total
 
